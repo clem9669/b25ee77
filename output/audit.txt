@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Jun  4 10:59:28 2019
+Invocation: foremost image2.jpg 
+Output directory: /home/user/ctf/dgse/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: image2.jpg
+Start: Tue Jun  4 10:59:28 2019
+Length: 6 MB (6693178 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000870.zip 	       5 MB 	     445628 	 
+Finish: Tue Jun  4 10:59:28 2019
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Tue Jun  4 10:59:28 2019
