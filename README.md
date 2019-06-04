@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img width="30%" height="30%" src="/images/solved1914.bmp">
+  <img width="30%" height="30%" src="/icon/solved1914.bmp">
 </p>
 
 > Our goal is to achieve 5/7
