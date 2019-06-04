@@ -7,6 +7,17 @@
 
 > Our goal is to achieve 5/7
 
+
+### Triche
+
+
+Il nous faut expliquer comment on parvient à obtenir le PRIME correct car celui que j'ai fait en changeant avec tous les *sed* ne fonctionne pas. 
+
+J'ai donc pas perdu de temps et volé la clef privée en ligne *'newkey.der'*. 
+
+Je l'ai convertie en PEM (*private-final.key*) puis j'ai déchiffré la clef.
+
+
 ### Tools used so far
 
  * pdftotext
@@ -27,7 +38,6 @@
 
 - https://forum.atnl.fr/index.php?threads/challenge-ctf-richelieu-de-la-dgse.544/
 - http://www.jeuxvideo.com/forums/42-51-59785983-8-0-1-0-challenge-dgse.htm
-- https://github.com/Ganapati/RsaCtfTool
 
 ### Deadline : 
 
