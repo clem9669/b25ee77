@@ -5,7 +5,9 @@
   <img width="30%" height="30%" src="/icon/solved1914.bmp">
 </p>
 
-> Our goal is to achieve 5/7
+> Our goal is to achieve 4/7
+
+###  Please visit our Wiki for more details 😜
 
 
 ### Triche
