@@ -41,7 +41,7 @@ Je l'ai convertie en PEM (*private-final.key*) puis j'ai déchiffré la clef.
  * vi 
  * hexeditor
  * sublime-text 
- * ida 
+ * radare2
  * gdb
  * ghidra
 
