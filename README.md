@@ -9,6 +9,9 @@
 
 ###  Please visit our Wiki for more details 😜
 
+> add zsteg -a file puis zsteg file -E arg puis regex sublime puis replace ALD to UPX
+>xxd -r -p zsteg file puis upx -d fileinput -o out
+
 
 ### Triche
 
@@ -24,7 +27,7 @@ Je l'ai convertie en PEM (*private-final.key*) puis j'ai déchiffré la clef.
 
  * pdftotext
  * pdf-parser
- * xxd
+ * xxd 
  * binwalk
  * foremost
  * Steghide
@@ -34,6 +37,13 @@ Je l'ai convertie en PEM (*private-final.key*) puis j'ai déchiffré la clef.
  * RsaCtfTool
  * gpg
  * python
+ * zsteg
+ * vi 
+ * hexeditor
+ * sublime-text 
+ * ida 
+ * gdb
+ * ghidra
 
 
 ### Links Forum
