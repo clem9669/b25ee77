@@ -1,0 +1,28 @@
+defi1@AttrapeLeDrapeau:~$ nano lo.c
+defi1@AttrapeLeDrapeau:~$ l
+bash: l: command not found
+defi1@AttrapeLeDrapeau:~$ ls
+drapeau.txt  lo.c  prog.bin
+defi1@AttrapeLeDrapeau:~$ gcc lo.c -o date
+defi1@AttrapeLeDrapeau:~$ l
+bash: l: command not found
+defi1@AttrapeLeDrapeau:~$ ls
+date  drapeau.txt  lo.c  prog.bin
+defi1@AttrapeLeDrapeau:~$ export PATH=/home/defi1:$PATH
+defi1@AttrapeLeDrapeau:~$ ./prog.bin 
+#################################################
+##    Bienvenue dans ce lanceur (_wrapper_)    ##
+#################################################
+Ce logiciel vous permet de lancer ces programmes utiles simplement...
+Menu :
+   -> 1 : Affichage de la date et de l'heure actuelle
+   -> 2 : Affichage du nombre de secondes écoulées depuis le 01/01/1970 (Epoch)
+   -> 3 : Affichage du train
+   -> 4 : Affichage du calendrier du mois en cours
+1
+Suite du challenge Richelieu :
+
+ssh defi2.challengecybersec.fr -l defi2 -p 2222
+
+mot de passe : DGSE{H#M?W)el{0YZ-)77/C#ogrp}k4&EbP}
+
