@@ -60,7 +60,7 @@ It will stop by the **13 juin 2019** at midday (CEST)
 1. ~~Github repo~~
 2. CTF
 3. PPT
-4. Play with ```sl``` command
+4. Play with ```sl & LS``` command
 
 <p align="center">
   <img width="100" height="100" src="/icon/a.png">
