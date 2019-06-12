@@ -61,6 +61,7 @@ It will stop by the **13 juin 2019** at midday (CEST)
 2. CTF
 3. PPT
 4. Play with ```sl & LS``` command
+5. JMP RAX
 
 <p align="center">
   <img width="100" height="100" src="/icon/a.png">
