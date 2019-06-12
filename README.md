@@ -51,6 +51,7 @@ Je l'ai convertie en PEM (*private-final.key*) puis j'ai déchiffré la clef.
 - https://forum.atnl.fr/index.php?threads/challenge-ctf-richelieu-de-la-dgse.544/
 - http://www.jeuxvideo.com/forums/42-51-59785983-8-0-1-0-challenge-dgse.htm
 - https://packetstormsecurity.com/files/148386/Linux-x86-Execve-bin-cat-etc-passwd-Shellcode.html
+- https://github.com/offensive-security/exploitdb (db de pleins shellcodes rangées par archi, peut être interessant à proposer comme ressource)
 
 ### Deadline : 
 
