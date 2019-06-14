@@ -5,7 +5,8 @@
   <img width="30%" height="30%" src="/icon/solved1914.bmp">
 </p>
 
-> Our goal is to achieve 4/7
+> The challenge is finished! We reached level 6/7 (pas mal).
+> à faire -> slides!
 
 ###  Please visit our Wiki for more details 😜
 
@@ -44,6 +45,8 @@ Je l'ai convertie en PEM (*private-final.key*) puis j'ai déchiffré la clef.
  * radare2
  * gdb
  * ghidra
+ * pwntools
+ * metasploit-tools
 
 
 ### Links 
@@ -63,7 +66,7 @@ It will stop by the **13 juin 2019** at midday (CEST)
 2. CTF
 3. PPT
 4. Play with ```sl & LS``` command
-5. JMP RAX
+5. Slides!
 
 <p align="center">
   <img width="100" height="100" src="/icon/a.png">
