@@ -5,7 +5,8 @@
   <img width="30%" height="30%" src="/icon/solved1914.bmp">
 </p>
 
-> Our goal is to achieve 4/7
+> The challenge is finished! We reached level 6/7 (pas mal).
+> à faire -> slides!
 
 ###  Please visit our Wiki for more details 😜
 
@@ -44,12 +45,16 @@ Je l'ai convertie en PEM (*private-final.key*) puis j'ai déchiffré la clef.
  * radare2
  * gdb
  * ghidra
+ * pwntools
+ * metasploit-tools
 
 
-### Links Forum
+### Links 
 
 - https://forum.atnl.fr/index.php?threads/challenge-ctf-richelieu-de-la-dgse.544/
 - http://www.jeuxvideo.com/forums/42-51-59785983-8-0-1-0-challenge-dgse.htm
+- https://packetstormsecurity.com/files/148386/Linux-x86-Execve-bin-cat-etc-passwd-Shellcode.html
+- https://github.com/offensive-security/exploitdb (db de pleins shellcodes rangées par archi, peut être interessant à proposer comme ressource)
 
 ### Deadline : 
 
@@ -60,6 +65,8 @@ It will stop by the **13 juin 2019** at midday (CEST)
 1. ~~Github repo~~
 2. CTF
 3. PPT
+4. Play with ```sl & LS``` command
+5. Slides!
 
 <p align="center">
   <img width="100" height="100" src="/icon/a.png">

@@ -1,0 +1,11 @@
+malloc(240)                                      = 0x1a06260
+atoi(0x7ffe33c4f62a, 0x1a06350, 0x1a06260, 0x1a06260) = 96
+puts("********************************"...)      = 52
+puts("***    Bienvenue dans la gestion"...)      = 54
+puts("***                             "...)      = 52
+printf("***   NB : Taille de l'ID : %2d "..., 96) = 52
+puts("***        Vous pouvez mettre la"...)      = 52
+puts("***        en param\303\250tre pour la"...) = 53
+puts("********************************"...)      = 52
+puts("Que voulez-vous faire ?\n  -> 1) "...)     = 157
+printf("choix $ ")                               = 8

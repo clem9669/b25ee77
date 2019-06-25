@@ -1,0 +1,97 @@
+0x00000000004005fe : adc dword ptr [rbp - 0x41], ebx ; pop rax ; and byte ptr [rax], ah ; jmp rax
+0x0000000000400a1f : add bl, dh ; ret
+0x0000000000400a1d : add byte ptr [rax], al ; add bl, dh ; ret
+0x0000000000400a1b : add byte ptr [rax], al ; add byte ptr [rax], al ; add bl, dh ; ret
+0x0000000000400bb3 : add byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rdx], ch ; sub ah, byte ptr [rax] ; push rsi ; ret
+0x000000000040092c : add byte ptr [rax], al ; add byte ptr [rax], al ; leave ; ret
+0x000000000040060c : add byte ptr [rax], al ; add byte ptr [rax], al ; pop rbp ; ret
+0x0000000000400a1c : add byte ptr [rax], al ; add byte ptr [rax], al ; ret
+0x0000000000400bb5 : add byte ptr [rax], al ; add byte ptr [rdx], ch ; sub ah, byte ptr [rax] ; push rsi ; ret
+0x000000000040092d : add byte ptr [rax], al ; add cl, cl ; ret
+0x000000000040092e : add byte ptr [rax], al ; leave ; ret
+0x000000000040060e : add byte ptr [rax], al ; pop rbp ; ret
+0x0000000000400a1e : add byte ptr [rax], al ; ret
+0x0000000000400678 : add byte ptr [rcx], al ; ret
+0x0000000000400bb7 : add byte ptr [rdx], ch ; sub ah, byte ptr [rax] ; push rsi ; ret
+0x000000000040092f : add cl, cl ; ret
+0x0000000000400674 : add eax, 0x2019ee ; add ebx, esi ; ret
+0x000000000040092a : add eax, 0xb8 ; add cl, cl ; ret
+0x0000000000400679 : add ebx, esi ; ret
+0x0000000000400867 : add esp, 0x38 ; pop rbx ; pop rbp ; ret
+0x000000000040053b : add esp, 8 ; ret
+0x0000000000400866 : add rsp, 0x38 ; pop rbx ; pop rbp ; ret
+0x000000000040053a : add rsp, 8 ; ret
+0x0000000000400602 : and byte ptr [rax], ah ; jmp rax
+0x0000000000400677 : and byte ptr [rax], al ; add ebx, esi ; ret
+0x0000000000400531 : and byte ptr [rax], al ; test rax, rax ; je 0x400541 ; call rax
+0x0000000000400b26 : and byte ptr [rbx + 0x70], dh ; ret
+0x0000000000400b25 : and byte ptr gs:[rbx + 0x70], dh ; ret
+0x00000000004009f9 : call qword ptr [r12 + rbx*8]
+0x00000000004009fa : call qword ptr [rsp + rbx*8]
+0x0000000000400538 : call rax
+0x0000000000400869 : cmp byte ptr [rbx + 0x5d], bl ; ret
+0x0000000000400831 : dec dword ptr [rbx + 0x458be855] ; in al, 1 ; ret 0x458b
+0x0000000000400928 : enter 0x5eb, -0x48 ; add byte ptr [rax], al ; add byte ptr [rax], al ; leave ; ret
+0x00000000004009fc : fmul qword ptr [rax - 0x7d] ; ret
+0x0000000000400837 : in al, 1 ; ret 0x458b
+0x0000000000400865 : in al, dx ; add rsp, 0x38 ; pop rbx ; pop rbp ; ret
+0x0000000000400699 : int1 ; push rbp ; mov rbp, rsp ; call rax
+0x0000000000400b27 : jae 0x400b9b ; ret
+0x0000000000400b24 : jb 0x400b90 ; and byte ptr [rbx + 0x70], dh ; ret
+0x0000000000400536 : je 0x40053c ; call rax
+0x00000000004005fd : je 0x400618 ; pop rbp ; mov edi, 0x602058 ; jmp rax
+0x000000000040064b : je 0x400660 ; pop rbp ; mov edi, 0x602058 ; jmp rax
+0x0000000000400698 : je 0x400691 ; push rbp ; mov rbp, rsp ; call rax
+0x0000000000400b21 : je 0x400aee ; test al, 0x72 ; and byte ptr gs:[rbx + 0x70], dh ; ret
+0x0000000000400b67 : je 0x400b8b ; ret
+0x0000000000400cbf : jmp qword ptr [rax]
+0x0000000000400605 : jmp rax
+0x0000000000400b65 : jne 0x400bd4 ; je 0x400b8d ; ret
+0x0000000000400b64 : jne 0x400bd5 ; je 0x400b8e ; ret
+0x0000000000400930 : leave ; ret
+0x0000000000400673 : mov byte ptr [rip + 0x2019ee], 1 ; ret
+0x000000000040092b : mov eax, 0 ; leave ; ret
+0x0000000000400863 : mov eax, dword ptr [rbp - 0x14] ; add rsp, 0x38 ; pop rbx ; pop rbp ; ret
+0x000000000040069c : mov ebp, esp ; call rax
+0x0000000000400600 : mov edi, 0x602058 ; jmp rax
+0x00000000004009f7 : mov edi, edi ; call qword ptr [r12 + rbx*8]
+0x00000000004009f6 : mov edi, r15d ; call qword ptr [r12 + rbx*8]
+0x000000000040069b : mov rbp, rsp ; call rax
+0x0000000000400608 : nop dword ptr [rax + rax] ; pop rbp ; ret
+0x0000000000400a18 : nop dword ptr [rax + rax] ; ret
+0x0000000000400655 : nop dword ptr [rax] ; pop rbp ; ret
+0x000000000040064c : or ebx, dword ptr [rbp - 0x41] ; pop rax ; and byte ptr [rax], ah ; jmp rax
+0x0000000000400675 : out dx, al ; sbb dword ptr [rax], esp ; add byte ptr [rcx], al ; ret
+0x0000000000400a0c : pop r12 ; pop r13 ; pop r14 ; pop r15 ; ret
+0x0000000000400a0e : pop r13 ; pop r14 ; pop r15 ; ret
+0x0000000000400a10 : pop r14 ; pop r15 ; ret
+0x0000000000400a12 : pop r15 ; ret
+0x0000000000400601 : pop rax ; and byte ptr [rax], ah ; jmp rax
+0x0000000000400672 : pop rbp ; mov byte ptr [rip + 0x2019ee], 1 ; ret
+0x00000000004005ff : pop rbp ; mov edi, 0x602058 ; jmp rax
+0x0000000000400a0b : pop rbp ; pop r12 ; pop r13 ; pop r14 ; pop r15 ; ret
+0x0000000000400a0f : pop rbp ; pop r14 ; pop r15 ; ret
+0x0000000000400610 : pop rbp ; ret
+0x000000000040086a : pop rbx ; pop rbp ; ret
+0x0000000000400a13 : pop rdi ; ret
+0x0000000000400a11 : pop rsi ; pop r15 ; ret
+0x0000000000400a0d : pop rsp ; pop r13 ; pop r14 ; pop r15 ; ret
+0x000000000040069a : push rbp ; mov rbp, rsp ; call rax
+0x0000000000400bbb : push rsi ; ret
+0x000000000040053e : ret
+0x0000000000400542 : ret 0x201a
+0x0000000000400839 : ret 0x458b
+0x000000000040064a : sal byte ptr [rbx + rcx + 0x5d], 0xbf ; pop rax ; and byte ptr [rax], ah ; jmp rax
+0x00000000004005fc : sal byte ptr [rcx + rdx + 0x5d], 0xbf ; pop rax ; and byte ptr [rax], ah ; jmp rax
+0x0000000000400697 : sal byte ptr [rcx + rsi*8 + 0x55], 0x48 ; mov ebp, esp ; call rax
+0x0000000000400535 : sal byte ptr [rdx + rax - 1], 0xd0 ; add rsp, 8 ; ret
+0x0000000000400676 : sbb dword ptr [rax], esp ; add byte ptr [rcx], al ; ret
+0x0000000000400bb9 : sub ah, byte ptr [rax] ; push rsi ; ret
+0x0000000000400a25 : sub esp, 8 ; add rsp, 8 ; ret
+0x0000000000400a24 : sub rsp, 8 ; add rsp, 8 ; ret
+0x0000000000400b23 : test al, 0x72 ; and byte ptr gs:[rbx + 0x70], dh ; ret
+0x000000000040060a : test byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax], al ; pop rbp ; ret
+0x0000000000400a1a : test byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax], al ; ret
+0x0000000000400534 : test eax, eax ; je 0x40053e ; call rax
+0x0000000000400696 : test eax, eax ; je 0x400693 ; push rbp ; mov rbp, rsp ; call rax
+0x0000000000400533 : test rax, rax ; je 0x40053f ; call rax
